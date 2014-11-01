@@ -56,12 +56,20 @@ $ APP=calendar make install-gaia
 
 ---
 
-### Debug in the WebIDE
+### Install ADB Helper Add-on
 
 1. Launch Firefox Nightly
 2. `Tools` > `Web Developer` > `WebIDE`
-3. `Select Runtime` > under `USB Devices`
-4. Select your device (`Flame`, `GP-Peak`...)
+3. `Select Runtime` > `Install Simulator`
+4. Install `ADB Helper Add-on`
+
+---
+
+### Debug in the WebIDE
+
+1. Back to the WebIDE
+2. `Select Runtime` > under `USB Devices`
+3. Select your device (`Flame`, `GP-Peak`...)
 
 ---
 
@@ -87,9 +95,9 @@ $ DEBUG=1 DESKTOP=0 make
 ### Configure the WebIDE
 
 1. Launch Firefox Nightly
-1. `Tools` > `Web Developer` > `WebIDE`
-2. `Select Runtime` > `Install Simulator`
-3. Install the followings:
+2. `Tools` > `Web Developer` > `WebIDE`
+3. `Select Runtime` > `Install Simulator`
+4. Install the followings:
   * `ADB Helper Add-on`
   * `Firefox OS 2.2 Simulator`
 
